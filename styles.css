@@ -34,7 +34,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.6rem;
-  color: var(--bs-yellow);
+  color: #FEBA3C;
 }
 
 h2, h3, h4 {
@@ -59,7 +59,7 @@ p {
 }
 
 .tooltip-trigger {
-  color: var(--bs-yellow);
+  color: #FEBA3C;
   font-weight: bold;
   cursor: pointer;
 }
@@ -74,12 +74,12 @@ p {
 }
 
 a {
-  color: var(--bs-yellow);
+  color: #FEBA3C;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: var(--bs-yellow);
+  color: #FEBA3C;
   text-decoration: underline;
 }
 
@@ -142,7 +142,7 @@ a:hover, a:focus {
 }
 
 input:checked + .slider {
-  background-color: var(--bs-blue);
+  background-color: var(--bs-teal);
 }
 
 input:checked + .slider:before {
@@ -183,23 +183,21 @@ input:checked + .slider:before {
 
 .select-wrapper select:hover,
 .select-wrapper select:focus {
-  border-color: var(--bs-yellow);
+  border-color: #FEBA3C;
   outline: none;
 }
 
-.btn-blue {
-  background-color: var(--bs-blue);
-  color: white;
+.btn-blue,
+.btn-blue:focus {
+  background-color: var(--bs-teal);
+  color: black;
 }
 
 .btn-blue:hover {
-  background-color: var(--bs-blue);
+  background-color: var(--bs-teal);
   -webkit-transform: translateY(-1px);
   transform: translateY(-1px);
-}
-
-.btn-blue:focus {
-  background-color: #0a58ca;
+  color: black;
 }
 
 .btn-link {
