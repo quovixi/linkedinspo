@@ -14,7 +14,5 @@ All the prompts and examples are written by me ([Vicky Carmichael](https://www.l
 
 One thing I did use ChatGPT for is to help turn my ideas into code — particularly the JavaScript powering the random selection.
 
-The trickiest part of this project was figuring out how to fade in an out between prompts. I didn't realise how complicated it is to try and animate the display property, so I ended up listening for `tranisitonend` events to manipulate the DOM, dynamically updating `opacity` and `visibility` at the right time.
-
 ## Try it out
 [linkedinspo.quovixi.com](https://linkedinspo.quovixi.com/)
