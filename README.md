@@ -1,12 +1,16 @@
 # LinkedInspo
 
+Created by Vicky Carmichael
+
+[linkedinspo.quovixi.com](https://linkedinspo.quovixi.com/)
+
 ## Background
 
 You can get any AI tool to generate a bunch of prompts and example posts for LinkedIn — it's even built into LinkedIn itself these days. But I think the net result of this trend is a bunch of posts that all follow the same format and have this uncanny valley tone, which makes for a pretty boring feed.
 
 That said, I get that people feel a pressure to post on LinkedIn and are looking for ideas. I was originally going to put together a straightforward blog post with a round-up of post suggestions, but then I thought a random generator web-app would be more fun (for me and for the user).
 
-## Features
+## Features and development
 
 Generate a random prompt at the click of a button, and see an accompanying example (which can be shown or hidden with a toggle switch). All prompts are included by default but, if you prefer, you can filter by category: Informative, Personal, Inspiring, or Engaging.
 
@@ -14,5 +18,4 @@ All the prompts and examples are written by me ([Vicky Carmichael](https://www.l
 
 One thing I did use ChatGPT for is to help turn my ideas into code — particularly the JavaScript powering the random selection.
 
-## Try it out
-[linkedinspo.quovixi.com](https://linkedinspo.quovixi.com/)
+
