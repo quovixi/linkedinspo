@@ -76,11 +76,28 @@ p {
 a {
   color: #FEBA3C;
   text-decoration: none;
+  position: relative;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus,
+a:active {
   color: #FEBA3C;
-  text-decoration: underline;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #FEBA3C;
+  transition: width 0.3s ease;
+}
+
+a:hover::after, a:focus::after {
+  width: 100%; 
 }
 
 .container {
@@ -366,6 +383,34 @@ input:checked + .slider:before {
   transition: opacity 0.15s ease-in;
 }
 
-footer {
-  text-align: center;
+.divider-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center; 
+}
+
+.divider-footer div {
+  display: flex;
+  gap: 1.5rem; 
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .divider-footer {
+      font-size: 0.9rem;
+  }
+}
+
+.divider-footer a {
+  text-decoration: none;
+  color: #FEBA3C;
+}
+
+.divider-footer p {
+  margin: 0;
 }
